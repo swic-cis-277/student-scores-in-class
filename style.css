@@ -1,7 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: clamp(550px, 960px, 80vw);
 }
 
-h1 {
+h1,
+thead {
   font-weight: bold;
+}
+
+table {
+  width: 100%;
 }
