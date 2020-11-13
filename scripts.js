@@ -1,4 +1,4 @@
 import data from "./data.js";
+import createTable from "./lib.js";
 
-// TODO: Remove this line after you have inspected the data
-console.log(data);
+createTable(data);
