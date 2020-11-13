@@ -5,12 +5,16 @@ body {
 }
 
 h1,
-thead {
+div thead {
   font-weight: bold;
 }
 
 h1 {
   text-align: center;
+}
+
+div {
+  font-size: 3em;
 }
 
 table {
