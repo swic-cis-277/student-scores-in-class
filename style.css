@@ -15,6 +15,12 @@ h1 {
   text-align: center;
 }
 
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 p {
   font-size: 3em;
   margin: 0;
@@ -62,6 +68,10 @@ td:nth-child(3) {
   text-align: center;
 }
 
+.is-hidden {
+  display: none;
+}
+
 /* 'loader' and 'spin' based on example from w3schools 👇🏽 😳 */
 .loader {
   animation: spin 2s linear infinite;
@@ -69,6 +79,7 @@ td:nth-child(3) {
   border-radius: 50%;
   border-top: 1rem solid #3498db;
   height: 7.5rem;
+  margin: 10vmin 0;
   width: 7.5rem;
 }
 
