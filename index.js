@@ -12,6 +12,3 @@ api.index().then((studentData) => {
   store.setData(studentData);
   render();
 });
-
-// TODO: Abstract this into a 'form handler'
-api.create({ name: "Mark Davis", score: 49 });
