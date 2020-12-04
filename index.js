@@ -1,5 +1,4 @@
 import api from "./api";
-import db from "./db";
 import { Main } from "./components";
 import store from "./store";
 
@@ -13,3 +12,6 @@ api.index().then((studentData) => {
   store.setData(studentData);
   render();
 });
+
+// TODO: Abstract this into a 'form handler'
+api.create({ name: "Mark Davis", score: 49 });
