@@ -53,7 +53,7 @@ td:nth-child(3) {
   border-radius: 50%;
   border-top: 1rem solid #3498db;
   height: 7.5rem;
-  margin: 10vmin 0;
+  margin: 10vmin auto;
   width: 7.5rem;
 }
 
