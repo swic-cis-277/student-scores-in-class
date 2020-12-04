@@ -1,4 +1,5 @@
 import api from "./api";
+import db from "./db";
 import { Main } from "./components";
 import store from "./store";
 

@@ -37,6 +37,7 @@
     "*.{js,css,md}": "prettier --write"
   },
   "dependencies": {
+    "firebase": "^8.1.2",
     "parcel-bundler": "^1.12.4"
   }
 }
