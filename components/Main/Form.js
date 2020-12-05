@@ -1,7 +1,7 @@
 export default () => `<form>
   <span>
     <label for="name">Student's Name</label
-    ><input type="text" id="name" placeholder="Student's Name" required />
+    ><input type="text" id="name" placeholder="Student's Name" name="name" required />
   </span>
 
   <span>
@@ -12,6 +12,7 @@ export default () => `<form>
       min="0"
       max="100"
       placeholder="Test Score"
+      name="score"
       required
     />
   </span>
