@@ -7,7 +7,9 @@ const root = document.getElementById("root");
 
 const render = () => {
   root.innerHTML = Main();
-  formHandler(render);
+  formHandler().then(() => {
+    render();
+  });
 };
 
 api.index().then((studentData) => {
