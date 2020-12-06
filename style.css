@@ -29,10 +29,6 @@ table {
   width: 100%;
 }
 
-tbody tr:nth-child(odd) {
-  background: whitesmoke;
-}
-
 td {
   margin: 0;
   padding: 0.25rem;
@@ -75,6 +71,39 @@ label {
   left: -9999px;
   position: absolute;
   top: -9999px;
+}
+
+tbody {
+  --A: green;
+  --B: chartreuse;
+  --C: yellow;
+  --D: orange;
+  --F: red;
+}
+
+[data-grade="A"],
+[data-grade="F"] {
+  color: white;
+}
+
+[data-grade="A"] {
+  background-color: var(--A);
+}
+
+[data-grade="B"] {
+  background-color: var(--B);
+}
+
+[data-grade="C"] {
+  background-color: var(--C);
+}
+
+[data-grade="D"] {
+  background-color: var(--D);
+}
+
+[data-grade="F"] {
+  background-color: var(--F);
 }
 
 .is-hidden {
