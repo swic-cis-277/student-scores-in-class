@@ -12,6 +12,6 @@ export default {
   // More generically, the PARAMETER might be called 'payload'
   async create(student) {
     // https://firebase.google.com/docs/firestore/manage-data/add-data
-    db.collection("students").add(student);
+    return db.collection("students").add(student);
   },
 };
