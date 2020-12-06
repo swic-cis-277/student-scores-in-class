@@ -7,9 +7,13 @@ const root = document.getElementById("root");
 
 const render = () => {
   root.innerHTML = Main();
-  formHandler().then(() => {
-    render();
-  });
+  formHandler()
+    .then(() => {
+      render();
+    })
+    .catch((error) => {
+      console.error(error.msg);
+    });
 };
 
 api.index().then((studentData) => {
